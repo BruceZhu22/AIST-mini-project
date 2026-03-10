@@ -1,0 +1,20 @@
+# Core ML stack
+torch>=2.2.0
+transformers>=4.40.0
+peft>=0.10.0
+accelerate>=0.28.0
+datasets>=2.18.0
+
+# Training utilities
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+tensorboard>=2.13.0
+
+# Plotting / analysis
+matplotlib>=3.8.0
+numpy>=1.26.0
+tqdm>=4.66.0
+scipy>=1.13.0
+
+# Optional: for faster tokenisation
+tokenizers>=0.19.0
