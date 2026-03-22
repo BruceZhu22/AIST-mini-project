@@ -1,0 +1,63 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading tokeniser …
+Loading base model …
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<00:35,  8.06it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1542.95it/s]
+Loading OFT adapter …
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  38%|███▊      | 111/290 [00:00<00:00, 1109.59it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1658.56it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+────────────────────────────────────────────────────────────
+[1/6] Explain what orthogonal fine-tuning (OFT) is and how it differs from L
+  Base : Orthogonal Fine-Tuning (OFT) is a technique used in deep learning to improve the performance of neural networks by adjus …
+  OFT  : Orthogonal Fine-Tuning (OFT) is a technique used in deep learning to improve the performance of neural networks by reduc …
+
+────────────────────────────────────────────────────────────
+[2/6] Write a Python function that computes the Fibonacci sequence up to n.
+  Base : ```python
+def fibonacci(n):
+    if n <= 0:
+        return []
+    elif n == 1:
+        return [0]
+    elif n == 2:
+       …
+  OFT  : def fibonacci(n):
+    if n <= 0:
+        return []
+    elif n == 1:
+        return [0]
+    else:
+        fib_sequence =  …
+
+────────────────────────────────────────────────────────────
+[3/6] Translate the following English sentence to French.
+  Base : The translation of the given English sentence "Artificial intelligence is transforming every aspect of modern life" into …
+  OFT  : L'intelligence artificielle transforme chaque aspect de notre vie moderne. 
+
+This translates to: "L'intelligence artific …
+
+────────────────────────────────────────────────────────────
+[4/6] Summarise the following paragraph in one sentence.
+  Base : The Transformers introduced in 'Attention Is All You Need' (Vaswani et al., 2017) significantly transformed the way NLP  …
+  OFT  : Self-attention mechanisms were used to replace recurrent architectures in Transformers, leading to highly parallelisable …
+
+────────────────────────────────────────────────────────────
+[5/6] Convert 98.6 degrees Fahrenheit to Celsius.
+  Base : To convert 98.6 degrees Fahrenheit to Celsius, you need to multiply it by 1.8. Here's how:
+
+98.6 * 1.8 = 175.24
+
+Therefo …
+  OFT  : 98.6 degrees Fahrenheit is equivalent to 37.5 degrees Celsius. 
+
+Note: The conversion factor between Fahrenheit and Cels …
+
+────────────────────────────────────────────────────────────
+[6/6] Give three practical tips for improving sleep quality.
+  Base : Improving sleep quality can be achieved through several practical tips. Here are three suggestions:
+
+1. **Establish a Sl …
+  OFT  : 1. Establish a regular sleep schedule: Try to go to bed and wake up at the same time every day.
+2. Create a relaxing bed …
+
+Comparison saved → ./output/comparison.md
